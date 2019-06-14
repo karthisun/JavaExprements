@@ -1,0 +1,17 @@
+server:
+  port: 9990
+#  ssl:
+#    key-alias: selfsigned_localhost_sslserver
+#    key-password: changeit
+#    key-store: classpath:ssl-server.jks
+#    key-store-provider: SUN
+#    key-store-type: JKS
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka
+
+spring:
+  application:
+    name: testsshMS
